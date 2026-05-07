@@ -1,0 +1,33 @@
+# Exclude the project report PDF
+*.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files (optional — comment out if you want to include the model)
+# *.keras
+# *.h5
+
+# Dataset (too large for git)
+dataSet/
