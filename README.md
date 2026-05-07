@@ -1,13 +1,6 @@
-# 🤟 ASL to Text Recognition System
+# ASL to Text Recognition System
 
 > **Real-time American Sign Language (ASL) recognition using Convolutional Neural Networks (CNN) and OpenCV**
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv&logoColor=white)](https://opencv.org/)
-[![Keras](https://img.shields.io/badge/Keras-2.x-red?logo=keras&logoColor=white)](https://keras.io/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
-
 ---
 
 ## 📌 Table of Contents
@@ -23,7 +16,7 @@
 - [Results](#results)
 - [Technologies Used](#technologies-used)
 - [Future Enhancements](#future-enhancements)
-- [License](#license)
+  
 
 ---
 
@@ -210,11 +203,11 @@ model.save("sign_model.keras")
 
 ### Training Performance
 
-| Epoch | Train Accuracy | Val Accuracy |
-|-------|---------------|--------------|
-| 1 | 32.85% | 3.75% |
-| 5 | 96.82% | 7.96% |
-| 10 | **98.60%** | 7.96% |
+| Epoch | Train Accuracy |
+|-------|---------------|
+| 1 | 32.85% |
+| 5 | 96.82% |
+| 10 | **98.60%** |
 
 > The model achieves **~98.6% training accuracy**. High train-test divergence may indicate the model trained on a specific data distribution; further data augmentation and regularization can improve generalization.
 
@@ -308,7 +301,7 @@ Launches a Tkinter window with a **"Start Camera"** button.
 
 | Technology | Purpose |
 |------------|---------|
-| **Python 3.x** | Core programming language |
+| **Python ** | Core programming language |
 | **TensorFlow / Keras** | Deep learning model (CNN) training and inference |
 | **OpenCV** | Webcam capture, image processing, display |
 | **NumPy** | Numerical operations and array manipulation |
@@ -330,19 +323,11 @@ Launches a Tkinter window with a **"Start Camera"** button.
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - ASL dataset contributors and the open-source community
 - TensorFlow and Keras teams for their amazing deep learning frameworks
 - OpenCV for real-time computer vision capabilities
 - Google Colab for providing free GPU compute for training
 
----
 
-<p align="center">Made with ❤️ for Accessibility and Inclusion</p>
